@@ -36,6 +36,7 @@ public class SolitaireMain {
             scanner.close();
     }
 // Finds JokerA, removes it and reinserts it behind one card and refinds it in the deck
+// Idea of moving elements around in a list from https://stackoverflow.com/questions/3173154/move-an-item-inside-a-list
     public void stepOne() {
         // Find JokerA
         int jokerA = deckStorage.indexOf(27);
